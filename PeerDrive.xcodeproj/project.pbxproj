@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCE43E891917313A00F63074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE43E881917313A00F63074 /* Foundation.framework */; };
+		DCE43E8B1917313A00F63074 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE43E8A1917313A00F63074 /* CoreGraphics.framework */; };
+		DCE43E8D1917313A00F63074 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE43E8C1917313A00F63074 /* UIKit.framework */; };
+		DCE43E931917313A00F63074 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCE43E911917313A00F63074 /* InfoPlist.strings */; };
+		DCE43E951917313A00F63074 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE43E941917313A00F63074 /* main.m */; };
+		DCE43E991917313A00F63074 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE43E981917313A00F63074 /* AppDelegate.m */; };
+		DCE43E9B1917313A00F63074 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE43E9A1917313A00F63074 /* Images.xcassets */; };
+		DCE43EA21917313A00F63074 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE43EA11917313A00F63074 /* XCTest.framework */; };
+		DCE43EA31917313A00F63074 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE43E881917313A00F63074 /* Foundation.framework */; };
+		DCE43EA41917313A00F63074 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE43E8C1917313A00F63074 /* UIKit.framework */; };
+		DCE43EAC1917313A00F63074 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCE43EAA1917313A00F63074 /* InfoPlist.strings */; };
+		DCE43EAE1917313A00F63074 /* PeerDriveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE43EAD1917313A00F63074 /* PeerDriveTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCE43EA51917313A00F63074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCE43E7D1917313A00F63074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCE43E841917313A00F63074;
+			remoteInfo = PeerDrive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCE43E851917313A00F63074 /* PeerDrive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerDrive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE43E881917313A00F63074 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCE43E8A1917313A00F63074 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCE43E8C1917313A00F63074 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCE43E901917313A00F63074 /* PeerDrive-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeerDrive-Info.plist"; sourceTree = "<group>"; };
+		DCE43E921917313A00F63074 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCE43E941917313A00F63074 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCE43E961917313A00F63074 /* PeerDrive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PeerDrive-Prefix.pch"; sourceTree = "<group>"; };
+		DCE43E971917313A00F63074 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCE43E981917313A00F63074 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCE43E9A1917313A00F63074 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCE43EA01917313A00F63074 /* PeerDriveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeerDriveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE43EA11917313A00F63074 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DCE43EA91917313A00F63074 /* PeerDriveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PeerDriveTests-Info.plist"; sourceTree = "<group>"; };
+		DCE43EAB1917313A00F63074 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCE43EAD1917313A00F63074 /* PeerDriveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeerDriveTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCE43E821917313A00F63074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE43E8B1917313A00F63074 /* CoreGraphics.framework in Frameworks */,
+				DCE43E8D1917313A00F63074 /* UIKit.framework in Frameworks */,
+				DCE43E891917313A00F63074 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE43E9D1917313A00F63074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE43EA21917313A00F63074 /* XCTest.framework in Frameworks */,
+				DCE43EA41917313A00F63074 /* UIKit.framework in Frameworks */,
+				DCE43EA31917313A00F63074 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCE43E7C1917313A00F63074 = {
+			isa = PBXGroup;
+			children = (
+				DCE43E8E1917313A00F63074 /* PeerDrive */,
+				DCE43EA71917313A00F63074 /* PeerDriveTests */,
+				DCE43E871917313A00F63074 /* Frameworks */,
+				DCE43E861917313A00F63074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCE43E861917313A00F63074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE43E851917313A00F63074 /* PeerDrive.app */,
+				DCE43EA01917313A00F63074 /* PeerDriveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCE43E871917313A00F63074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCE43E881917313A00F63074 /* Foundation.framework */,
+				DCE43E8A1917313A00F63074 /* CoreGraphics.framework */,
+				DCE43E8C1917313A00F63074 /* UIKit.framework */,
+				DCE43EA11917313A00F63074 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCE43E8E1917313A00F63074 /* PeerDrive */ = {
+			isa = PBXGroup;
+			children = (
+				DCE43E971917313A00F63074 /* AppDelegate.h */,
+				DCE43E981917313A00F63074 /* AppDelegate.m */,
+				DCE43E9A1917313A00F63074 /* Images.xcassets */,
+				DCE43E8F1917313A00F63074 /* Supporting Files */,
+			);
+			path = PeerDrive;
+			sourceTree = "<group>";
+		};
+		DCE43E8F1917313A00F63074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE43E901917313A00F63074 /* PeerDrive-Info.plist */,
+				DCE43E911917313A00F63074 /* InfoPlist.strings */,
+				DCE43E941917313A00F63074 /* main.m */,
+				DCE43E961917313A00F63074 /* PeerDrive-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCE43EA71917313A00F63074 /* PeerDriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCE43EAD1917313A00F63074 /* PeerDriveTests.m */,
+				DCE43EA81917313A00F63074 /* Supporting Files */,
+			);
+			path = PeerDriveTests;
+			sourceTree = "<group>";
+		};
+		DCE43EA81917313A00F63074 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCE43EA91917313A00F63074 /* PeerDriveTests-Info.plist */,
+				DCE43EAA1917313A00F63074 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCE43E841917313A00F63074 /* PeerDrive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE43EB11917313A00F63074 /* Build configuration list for PBXNativeTarget "PeerDrive" */;
+			buildPhases = (
+				DCE43E811917313A00F63074 /* Sources */,
+				DCE43E821917313A00F63074 /* Frameworks */,
+				DCE43E831917313A00F63074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeerDrive;
+			productName = PeerDrive;
+			productReference = DCE43E851917313A00F63074 /* PeerDrive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCE43E9F1917313A00F63074 /* PeerDriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCE43EB41917313A00F63074 /* Build configuration list for PBXNativeTarget "PeerDriveTests" */;
+			buildPhases = (
+				DCE43E9C1917313A00F63074 /* Sources */,
+				DCE43E9D1917313A00F63074 /* Frameworks */,
+				DCE43E9E1917313A00F63074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCE43EA61917313A00F63074 /* PBXTargetDependency */,
+			);
+			name = PeerDriveTests;
+			productName = PeerDriveTests;
+			productReference = DCE43EA01917313A00F63074 /* PeerDriveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCE43E7D1917313A00F63074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Herenow;
+				TargetAttributes = {
+					DCE43E9F1917313A00F63074 = {
+						TestTargetID = DCE43E841917313A00F63074;
+					};
+				};
+			};
+			buildConfigurationList = DCE43E801917313A00F63074 /* Build configuration list for PBXProject "PeerDrive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCE43E7C1917313A00F63074;
+			productRefGroup = DCE43E861917313A00F63074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCE43E841917313A00F63074 /* PeerDrive */,
+				DCE43E9F1917313A00F63074 /* PeerDriveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCE43E831917313A00F63074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE43E931917313A00F63074 /* InfoPlist.strings in Resources */,
+				DCE43E9B1917313A00F63074 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE43E9E1917313A00F63074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE43EAC1917313A00F63074 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCE43E811917313A00F63074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE43E991917313A00F63074 /* AppDelegate.m in Sources */,
+				DCE43E951917313A00F63074 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCE43E9C1917313A00F63074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE43EAE1917313A00F63074 /* PeerDriveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCE43EA61917313A00F63074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCE43E841917313A00F63074 /* PeerDrive */;
+			targetProxy = DCE43EA51917313A00F63074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCE43E911917313A00F63074 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE43E921917313A00F63074 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCE43EAA1917313A00F63074 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCE43EAB1917313A00F63074 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCE43EAF1917313A00F63074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCE43EB01917313A00F63074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCE43EB21917313A00F63074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeerDrive/PeerDrive-Prefix.pch";
+				INFOPLIST_FILE = "PeerDrive/PeerDrive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCE43EB31917313A00F63074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeerDrive/PeerDrive-Prefix.pch";
+				INFOPLIST_FILE = "PeerDrive/PeerDrive-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DCE43EB51917313A00F63074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeerDrive.app/PeerDrive";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeerDrive/PeerDrive-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PeerDriveTests/PeerDriveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DCE43EB61917313A00F63074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PeerDrive.app/PeerDrive";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PeerDrive/PeerDrive-Prefix.pch";
+				INFOPLIST_FILE = "PeerDriveTests/PeerDriveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCE43E801917313A00F63074 /* Build configuration list for PBXProject "PeerDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE43EAF1917313A00F63074 /* Debug */,
+				DCE43EB01917313A00F63074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCE43EB11917313A00F63074 /* Build configuration list for PBXNativeTarget "PeerDrive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE43EB21917313A00F63074 /* Debug */,
+				DCE43EB31917313A00F63074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCE43EB41917313A00F63074 /* Build configuration list for PBXNativeTarget "PeerDriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCE43EB51917313A00F63074 /* Debug */,
+				DCE43EB61917313A00F63074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCE43E7D1917313A00F63074 /* Project object */;
+}
