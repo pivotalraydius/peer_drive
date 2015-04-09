@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UISupportedExternalAccessoryProtocols</key>
-	<array>
-		<string>com.romotive.romo</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -28,9 +24,17 @@
 	<string>1.02</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>PeerDrive uses your location to send you alerts andanonymous messages from other u sers. Your identity remains private throughout and no identifying data is ever gathered or stored by us.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>PeerDrive would like to use your location</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+	</array>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.romotive.romo</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

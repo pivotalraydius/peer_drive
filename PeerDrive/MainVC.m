@@ -15,6 +15,7 @@
 #define TABLE_ORIGIN_Y          220.0
 
 static NSString * const CELL_REUSE_IDENTIFIER = @"peer_cell";
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
 
 @interface MainVC ()
 
@@ -143,6 +144,13 @@ static NSString * const CELL_REUSE_IDENTIFIER = @"peer_cell";
 - (void)setupLocationManager {
     
     self.locationManager = [[CLLocationManager alloc] init];
+    
+    if(IS_OS_8_OR_LATER) {
+        // Use one or the other, not both. Depending on what you put in info.plist
+        //        [self.locationManager requestWhenInUseAuthorization];
+        [self.locationManager requestAlwaysAuthorization];
+    }
+    
     [self.locationManager setDelegate:self];
     
     [self.locationManager setDistanceFilter:kCLDistanceFilterNone];
